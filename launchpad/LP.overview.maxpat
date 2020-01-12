@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -187,7 +187,7 @@
 				"box" : 				{
 					"id" : "obj-103",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 14.25, 353.0, 51.0, 22.0 ],
@@ -222,10 +222,10 @@
 					"rows" : 8,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.grid",
-							"parameter_invisible" : 1,
 							"parameter_shortname" : "live.grid",
-							"parameter_type" : 3
+							"parameter_type" : 3,
+							"parameter_longname" : "live.grid",
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -250,7 +250,7 @@
 				"box" : 				{
 					"id" : "obj-86",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 766.5, 119.21893310546875, 121.0, 22.0 ],
@@ -616,7 +616,7 @@
 				"box" : 				{
 					"id" : "obj-5",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 14.25, 307.0, 44.0, 22.0 ],
@@ -936,86 +936,93 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "LP.grid.maxpat",
-				"bootpath" : "~/Dropbox/MLE/Library/patchers/controllers/launchpad",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/github/CML/LP/launchpad/input",
+				"patcherrelativepath" : "./input",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "LP.padX.maxpat",
-				"bootpath" : "~/Dropbox/MLE/Library/patchers/controllers/launchpad",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/github/CML/LP/launchpad/input",
+				"patcherrelativepath" : "./input",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "LP.padY.maxpat",
-				"bootpath" : "~/Dropbox/MLE/Library/patchers/controllers/launchpad",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/github/CML/LP/launchpad/input",
+				"patcherrelativepath" : "./input",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "LP.seq8.maxpat",
-				"bootpath" : "~/Dropbox/MLE/Library/patchers/controllers/launchpad",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/github/CML/LP/launchpad/mapping",
+				"patcherrelativepath" : "./mapping",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "LP.row.maxpat",
-				"bootpath" : "~/Dropbox/MLE/Library/patchers/controllers/launchpad",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/github/CML/LP/launchpad/mapping",
+				"patcherrelativepath" : "./mapping",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "initPV.maxpat",
-				"bootpath" : "~/Dropbox/MLE/Library/patchers/utilities",
-				"patcherrelativepath" : "../../utilities",
+				"bootpath" : "~/Documents/github/CML/MLE/patchers/utilities",
+				"patcherrelativepath" : "../../MLE/patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "LP.ledBar.maxpat",
-				"bootpath" : "~/Dropbox/MLE/Library/patchers/controllers/launchpad",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/github/CML/LP/launchpad/feedback",
+				"patcherrelativepath" : "./feedback",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "LP.led1.maxpat",
-				"bootpath" : "~/Dropbox/MLE/Library/patchers/controllers/launchpad",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/github/CML/LP/launchpad/feedback",
+				"patcherrelativepath" : "./feedback",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "LP.out.maxpat",
-				"bootpath" : "~/Dropbox/MLE/Library/patchers/controllers/launchpad",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/github/CML/LP/launchpad/output",
+				"patcherrelativepath" : "./output",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "LP.dot.maxpat",
-				"bootpath" : "~/Dropbox/MLE/Library/patchers/controllers/launchpad",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/github/CML/LP/launchpad/feedback",
+				"patcherrelativepath" : "./feedback",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "LP.8row.maxpat",
-				"bootpath" : "~/Dropbox/MLE/Library/patchers/controllers/launchpad",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/github/CML/LP/launchpad/mapping",
+				"patcherrelativepath" : "./mapping",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MLE.keyGrid.maxpat",
-				"bootpath" : "~/Dropbox/MLE/Library/patchers/controllers",
-				"patcherrelativepath" : "..",
+				"bootpath" : "~/Documents/github/CML/MLE/patchers/controllers",
+				"patcherrelativepath" : "../../MLE/patchers/controllers",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "asciiLinearMapping.txt",
+				"bootpath" : "~/Documents/github/CML/MLE/code",
+				"patcherrelativepath" : "../../MLE/code",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
  ],
