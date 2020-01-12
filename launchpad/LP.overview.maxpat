@@ -80,8 +80,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 698.5, -14.0, 78.0, 22.0 ],
-					"text" : "MLE.keyGrid"
+					"patching_rect" : [ 698.5, -14.0, 66.0, 22.0 ],
+					"text" : "LP.keyGrid"
 				}
 
 			}
@@ -1012,9 +1012,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "MLE.keyGrid.maxpat",
-				"bootpath" : "~/Documents/github/CML/MLE/patchers/controllers",
-				"patcherrelativepath" : "../../MLE/patchers/controllers",
+				"name" : "LP.keyGrid.maxpat",
+				"bootpath" : "~/Documents/github/CML/LP/launchpad/input",
+				"patcherrelativepath" : "./input",
 				"type" : "JSON",
 				"implicit" : 1
 			}
