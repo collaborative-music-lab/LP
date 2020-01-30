@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -188,7 +188,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 10.0, 84.5, 204.0, 167.0 ],
-					"text" : "Sends LED values to the Novation Launchpad\n\nCurrent values are stored in the coll LP_led_states\n\nTwo different layers are available for display. Typically layer 1 is for visual feedback of input and layer 2 is for computer generated processes. The highest value from these two layers is output."
+					"text" : "Sends LED values to the Novation Launchpad\n\nCurrent values are stored in the coll LP_led_states\n\nTwo different layers are available for display. Typically layer 0 is for visual feedback of input and layer 1 is for computer generated processes. The highest value from these two layers is output."
 				}
 
 			}
@@ -216,7 +216,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -799,7 +799,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -934,8 +934,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 468.0, 535.0, 123.0, 35.0 ],
-									"text" : "grid 1 1 0 0 0 0"
+									"patching_rect" : [ 468.0, 535.0, 123.0, 22.0 ],
+									"text" : "grid 1 8 0 0 0 0"
 								}
 
 							}
@@ -1105,15 +1105,15 @@
 											}
 , 											{
 												"key" : 32,
-												"value" : [ "grid", 1, 3, 3, 1, 0, 0 ]
+												"value" : [ "grid", 1, 3, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 33,
-												"value" : [ "grid", 2, 3, 3, 1, 0, 0 ]
+												"value" : [ "grid", 2, 3, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 34,
-												"value" : [ "grid", 3, 3, 1, 1, 0, 0 ]
+												"value" : [ "grid", 3, 3, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 35,
@@ -1141,15 +1141,15 @@
 											}
 , 											{
 												"key" : 48,
-												"value" : [ "grid", 1, 4, 1, 1, 0, 0 ]
+												"value" : [ "grid", 1, 4, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 49,
-												"value" : [ "grid", 2, 4, 1, 1, 0, 0 ]
+												"value" : [ "grid", 2, 4, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 50,
-												"value" : [ "grid", 3, 4, 1, 1, 0, 0 ]
+												"value" : [ "grid", 3, 4, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 51,
@@ -1161,11 +1161,11 @@
 											}
 , 											{
 												"key" : 53,
-												"value" : [ "grid", 6, 4, 1, 1, 0, 0 ]
+												"value" : [ "grid", 6, 4, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 54,
-												"value" : [ "grid", 7, 4, 1, 1, 0, 0 ]
+												"value" : [ "grid", 7, 4, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 55,
@@ -1177,19 +1177,19 @@
 											}
 , 											{
 												"key" : 64,
-												"value" : [ "grid", 1, 5, 1, 1, 0, 0 ]
+												"value" : [ "grid", 1, 5, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 65,
-												"value" : [ "grid", 2, 5, 1, 1, 0, 0 ]
+												"value" : [ "grid", 2, 5, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 66,
-												"value" : [ "grid", 3, 5, 1, 1, 0, 0 ]
+												"value" : [ "grid", 3, 5, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 67,
-												"value" : [ "grid", 4, 5, 1, 1, 0, 0 ]
+												"value" : [ "grid", 4, 5, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 68,
@@ -1197,15 +1197,15 @@
 											}
 , 											{
 												"key" : 69,
-												"value" : [ "grid", 6, 5, 1, 1, 0, 0 ]
+												"value" : [ "grid", 6, 5, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 70,
-												"value" : [ "grid", 7, 5, 1, 1, 0, 0 ]
+												"value" : [ "grid", 7, 5, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 71,
-												"value" : [ "grid", 8, 5, 1, 1, 0, 0 ]
+												"value" : [ "grid", 8, 5, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 72,
@@ -1213,35 +1213,35 @@
 											}
 , 											{
 												"key" : 80,
-												"value" : [ "grid", 1, 6, 1, 1, 0, 0 ]
+												"value" : [ "grid", 1, 6, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 81,
-												"value" : [ "grid", 2, 6, 1, 1, 0, 0 ]
+												"value" : [ "grid", 2, 6, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 82,
-												"value" : [ "grid", 3, 6, 1, 1, 0, 0 ]
+												"value" : [ "grid", 3, 6, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 83,
-												"value" : [ "grid", 4, 6, 1, 1, 0, 0 ]
+												"value" : [ "grid", 4, 6, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 84,
-												"value" : [ "grid", 5, 6, 1, 1, 0, 0 ]
+												"value" : [ "grid", 5, 6, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 85,
-												"value" : [ "grid", 6, 6, 1, 1, 0, 0 ]
+												"value" : [ "grid", 6, 6, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 86,
-												"value" : [ "grid", 7, 6, 1, 1, 0, 0 ]
+												"value" : [ "grid", 7, 6, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 87,
-												"value" : [ "grid", 8, 6, 1, 1, 0, 0 ]
+												"value" : [ "grid", 8, 6, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 88,
@@ -1249,35 +1249,35 @@
 											}
 , 											{
 												"key" : 96,
-												"value" : [ "grid", 1, 7, 1, 1, 0, 0 ]
+												"value" : [ "grid", 1, 7, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 97,
-												"value" : [ "grid", 2, 7, 1, 1, 0, 0 ]
+												"value" : [ "grid", 2, 7, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 98,
-												"value" : [ "grid", 3, 7, 1, 1, 0, 0 ]
+												"value" : [ "grid", 3, 7, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 99,
-												"value" : [ "grid", 4, 7, 1, 1, 0, 0 ]
+												"value" : [ "grid", 4, 7, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 100,
-												"value" : [ "grid", 5, 7, 1, 1, 0, 0 ]
+												"value" : [ "grid", 5, 7, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 101,
-												"value" : [ "grid", 6, 7, 1, 1, 0, 0 ]
+												"value" : [ "grid", 6, 7, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 102,
-												"value" : [ "grid", 7, 7, 1, 1, 0, 0 ]
+												"value" : [ "grid", 7, 7, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 103,
-												"value" : [ "grid", 8, 7, 1, 1, 0, 0 ]
+												"value" : [ "grid", 8, 7, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 104,
@@ -1285,35 +1285,35 @@
 											}
 , 											{
 												"key" : 112,
-												"value" : [ "grid", 1, 8, 1, 1, 0, 0 ]
+												"value" : [ "grid", 1, 8, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 113,
-												"value" : [ "grid", 2, 8, 1, 1, 0, 0 ]
+												"value" : [ "grid", 2, 8, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 114,
-												"value" : [ "grid", 3, 8, 1, 1, 0, 0 ]
+												"value" : [ "grid", 3, 8, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 115,
-												"value" : [ "grid", 4, 8, 1, 1, 0, 0 ]
+												"value" : [ "grid", 4, 8, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 116,
-												"value" : [ "grid", 5, 8, 1, 1, 0, 0 ]
+												"value" : [ "grid", 5, 8, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 117,
-												"value" : [ "grid", 6, 8, 1, 1, 0, 0 ]
+												"value" : [ "grid", 6, 8, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 118,
-												"value" : [ "grid", 7, 8, 1, 1, 0, 0 ]
+												"value" : [ "grid", 7, 8, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 119,
-												"value" : [ "grid", 8, 8, 1, 1, 0, 0 ]
+												"value" : [ "grid", 8, 8, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 120,
@@ -1870,7 +1870,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2212,15 +2212,15 @@
 											}
 , 											{
 												"key" : 32,
-												"value" : [ "grid", 1, 3, 3, 1, 0, 0 ]
+												"value" : [ "grid", 1, 3, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 33,
-												"value" : [ "grid", 2, 3, 3, 1, 0, 0 ]
+												"value" : [ "grid", 2, 3, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 34,
-												"value" : [ "grid", 3, 3, 1, 1, 0, 0 ]
+												"value" : [ "grid", 3, 3, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 35,
@@ -2248,15 +2248,15 @@
 											}
 , 											{
 												"key" : 48,
-												"value" : [ "grid", 1, 4, 1, 1, 0, 0 ]
+												"value" : [ "grid", 1, 4, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 49,
-												"value" : [ "grid", 2, 4, 1, 1, 0, 0 ]
+												"value" : [ "grid", 2, 4, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 50,
-												"value" : [ "grid", 3, 4, 1, 1, 0, 0 ]
+												"value" : [ "grid", 3, 4, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 51,
@@ -2268,11 +2268,11 @@
 											}
 , 											{
 												"key" : 53,
-												"value" : [ "grid", 6, 4, 1, 1, 0, 0 ]
+												"value" : [ "grid", 6, 4, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 54,
-												"value" : [ "grid", 7, 4, 1, 1, 0, 0 ]
+												"value" : [ "grid", 7, 4, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 55,
@@ -2284,19 +2284,19 @@
 											}
 , 											{
 												"key" : 64,
-												"value" : [ "grid", 1, 5, 1, 1, 0, 0 ]
+												"value" : [ "grid", 1, 5, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 65,
-												"value" : [ "grid", 2, 5, 1, 1, 0, 0 ]
+												"value" : [ "grid", 2, 5, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 66,
-												"value" : [ "grid", 3, 5, 1, 1, 0, 0 ]
+												"value" : [ "grid", 3, 5, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 67,
-												"value" : [ "grid", 4, 5, 1, 1, 0, 0 ]
+												"value" : [ "grid", 4, 5, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 68,
@@ -2304,15 +2304,15 @@
 											}
 , 											{
 												"key" : 69,
-												"value" : [ "grid", 6, 5, 1, 1, 0, 0 ]
+												"value" : [ "grid", 6, 5, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 70,
-												"value" : [ "grid", 7, 5, 1, 1, 0, 0 ]
+												"value" : [ "grid", 7, 5, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 71,
-												"value" : [ "grid", 8, 5, 1, 1, 0, 0 ]
+												"value" : [ "grid", 8, 5, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 72,
@@ -2320,35 +2320,35 @@
 											}
 , 											{
 												"key" : 80,
-												"value" : [ "grid", 1, 6, 1, 1, 0, 0 ]
+												"value" : [ "grid", 1, 6, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 81,
-												"value" : [ "grid", 2, 6, 1, 1, 0, 0 ]
+												"value" : [ "grid", 2, 6, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 82,
-												"value" : [ "grid", 3, 6, 1, 1, 0, 0 ]
+												"value" : [ "grid", 3, 6, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 83,
-												"value" : [ "grid", 4, 6, 1, 1, 0, 0 ]
+												"value" : [ "grid", 4, 6, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 84,
-												"value" : [ "grid", 5, 6, 1, 1, 0, 0 ]
+												"value" : [ "grid", 5, 6, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 85,
-												"value" : [ "grid", 6, 6, 1, 1, 0, 0 ]
+												"value" : [ "grid", 6, 6, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 86,
-												"value" : [ "grid", 7, 6, 1, 1, 0, 0 ]
+												"value" : [ "grid", 7, 6, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 87,
-												"value" : [ "grid", 8, 6, 1, 1, 0, 0 ]
+												"value" : [ "grid", 8, 6, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 88,
@@ -2356,35 +2356,35 @@
 											}
 , 											{
 												"key" : 96,
-												"value" : [ "grid", 1, 7, 1, 1, 0, 0 ]
+												"value" : [ "grid", 1, 7, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 97,
-												"value" : [ "grid", 2, 7, 1, 1, 0, 0 ]
+												"value" : [ "grid", 2, 7, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 98,
-												"value" : [ "grid", 3, 7, 1, 1, 0, 0 ]
+												"value" : [ "grid", 3, 7, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 99,
-												"value" : [ "grid", 4, 7, 1, 1, 0, 0 ]
+												"value" : [ "grid", 4, 7, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 100,
-												"value" : [ "grid", 5, 7, 1, 1, 0, 0 ]
+												"value" : [ "grid", 5, 7, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 101,
-												"value" : [ "grid", 6, 7, 1, 1, 0, 0 ]
+												"value" : [ "grid", 6, 7, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 102,
-												"value" : [ "grid", 7, 7, 1, 1, 0, 0 ]
+												"value" : [ "grid", 7, 7, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 103,
-												"value" : [ "grid", 8, 7, 1, 1, 0, 0 ]
+												"value" : [ "grid", 8, 7, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 104,
@@ -2392,35 +2392,35 @@
 											}
 , 											{
 												"key" : 112,
-												"value" : [ "grid", 1, 8, 1, 1, 0, 0 ]
+												"value" : [ "grid", 1, 8, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 113,
-												"value" : [ "grid", 2, 8, 1, 1, 0, 0 ]
+												"value" : [ "grid", 2, 8, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 114,
-												"value" : [ "grid", 3, 8, 1, 1, 0, 0 ]
+												"value" : [ "grid", 3, 8, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 115,
-												"value" : [ "grid", 4, 8, 1, 1, 0, 0 ]
+												"value" : [ "grid", 4, 8, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 116,
-												"value" : [ "grid", 5, 8, 1, 1, 0, 0 ]
+												"value" : [ "grid", 5, 8, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 117,
-												"value" : [ "grid", 6, 8, 1, 1, 0, 0 ]
+												"value" : [ "grid", 6, 8, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 118,
-												"value" : [ "grid", 7, 8, 1, 1, 0, 0 ]
+												"value" : [ "grid", 7, 8, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 119,
-												"value" : [ "grid", 8, 8, 1, 1, 0, 0 ]
+												"value" : [ "grid", 8, 8, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 120,
@@ -2992,7 +2992,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3310,15 +3310,15 @@
 											}
 , 											{
 												"key" : 32,
-												"value" : [ "grid", 1, 3, 3, 1, 0, 0 ]
+												"value" : [ "grid", 1, 3, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 33,
-												"value" : [ "grid", 2, 3, 3, 1, 0, 0 ]
+												"value" : [ "grid", 2, 3, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 34,
-												"value" : [ "grid", 3, 3, 1, 1, 0, 0 ]
+												"value" : [ "grid", 3, 3, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 35,
@@ -3346,15 +3346,15 @@
 											}
 , 											{
 												"key" : 48,
-												"value" : [ "grid", 1, 4, 1, 1, 0, 0 ]
+												"value" : [ "grid", 1, 4, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 49,
-												"value" : [ "grid", 2, 4, 1, 1, 0, 0 ]
+												"value" : [ "grid", 2, 4, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 50,
-												"value" : [ "grid", 3, 4, 1, 1, 0, 0 ]
+												"value" : [ "grid", 3, 4, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 51,
@@ -3366,11 +3366,11 @@
 											}
 , 											{
 												"key" : 53,
-												"value" : [ "grid", 6, 4, 1, 1, 0, 0 ]
+												"value" : [ "grid", 6, 4, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 54,
-												"value" : [ "grid", 7, 4, 1, 1, 0, 0 ]
+												"value" : [ "grid", 7, 4, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 55,
@@ -3382,19 +3382,19 @@
 											}
 , 											{
 												"key" : 64,
-												"value" : [ "grid", 1, 5, 1, 1, 0, 0 ]
+												"value" : [ "grid", 1, 5, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 65,
-												"value" : [ "grid", 2, 5, 1, 1, 0, 0 ]
+												"value" : [ "grid", 2, 5, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 66,
-												"value" : [ "grid", 3, 5, 1, 1, 0, 0 ]
+												"value" : [ "grid", 3, 5, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 67,
-												"value" : [ "grid", 4, 5, 1, 1, 0, 0 ]
+												"value" : [ "grid", 4, 5, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 68,
@@ -3402,15 +3402,15 @@
 											}
 , 											{
 												"key" : 69,
-												"value" : [ "grid", 6, 5, 1, 1, 0, 0 ]
+												"value" : [ "grid", 6, 5, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 70,
-												"value" : [ "grid", 7, 5, 1, 1, 0, 0 ]
+												"value" : [ "grid", 7, 5, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 71,
-												"value" : [ "grid", 8, 5, 1, 1, 0, 0 ]
+												"value" : [ "grid", 8, 5, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 72,
@@ -3418,35 +3418,35 @@
 											}
 , 											{
 												"key" : 80,
-												"value" : [ "grid", 1, 6, 1, 1, 0, 0 ]
+												"value" : [ "grid", 1, 6, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 81,
-												"value" : [ "grid", 2, 6, 1, 1, 0, 0 ]
+												"value" : [ "grid", 2, 6, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 82,
-												"value" : [ "grid", 3, 6, 1, 1, 0, 0 ]
+												"value" : [ "grid", 3, 6, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 83,
-												"value" : [ "grid", 4, 6, 1, 1, 0, 0 ]
+												"value" : [ "grid", 4, 6, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 84,
-												"value" : [ "grid", 5, 6, 1, 1, 0, 0 ]
+												"value" : [ "grid", 5, 6, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 85,
-												"value" : [ "grid", 6, 6, 1, 1, 0, 0 ]
+												"value" : [ "grid", 6, 6, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 86,
-												"value" : [ "grid", 7, 6, 1, 1, 0, 0 ]
+												"value" : [ "grid", 7, 6, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 87,
-												"value" : [ "grid", 8, 6, 1, 1, 0, 0 ]
+												"value" : [ "grid", 8, 6, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 88,
@@ -3454,35 +3454,35 @@
 											}
 , 											{
 												"key" : 96,
-												"value" : [ "grid", 1, 7, 1, 1, 0, 0 ]
+												"value" : [ "grid", 1, 7, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 97,
-												"value" : [ "grid", 2, 7, 1, 1, 0, 0 ]
+												"value" : [ "grid", 2, 7, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 98,
-												"value" : [ "grid", 3, 7, 1, 1, 0, 0 ]
+												"value" : [ "grid", 3, 7, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 99,
-												"value" : [ "grid", 4, 7, 1, 1, 0, 0 ]
+												"value" : [ "grid", 4, 7, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 100,
-												"value" : [ "grid", 5, 7, 1, 1, 0, 0 ]
+												"value" : [ "grid", 5, 7, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 101,
-												"value" : [ "grid", 6, 7, 1, 1, 0, 0 ]
+												"value" : [ "grid", 6, 7, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 102,
-												"value" : [ "grid", 7, 7, 1, 1, 0, 0 ]
+												"value" : [ "grid", 7, 7, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 103,
-												"value" : [ "grid", 8, 7, 1, 1, 0, 0 ]
+												"value" : [ "grid", 8, 7, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 104,
@@ -3490,35 +3490,35 @@
 											}
 , 											{
 												"key" : 112,
-												"value" : [ "grid", 1, 8, 1, 1, 0, 0 ]
+												"value" : [ "grid", 1, 8, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 113,
-												"value" : [ "grid", 2, 8, 1, 1, 0, 0 ]
+												"value" : [ "grid", 2, 8, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 114,
-												"value" : [ "grid", 3, 8, 1, 1, 0, 0 ]
+												"value" : [ "grid", 3, 8, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 115,
-												"value" : [ "grid", 4, 8, 1, 1, 0, 0 ]
+												"value" : [ "grid", 4, 8, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 116,
-												"value" : [ "grid", 5, 8, 1, 1, 0, 0 ]
+												"value" : [ "grid", 5, 8, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 117,
-												"value" : [ "grid", 6, 8, 1, 1, 0, 0 ]
+												"value" : [ "grid", 6, 8, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 118,
-												"value" : [ "grid", 7, 8, 1, 1, 0, 0 ]
+												"value" : [ "grid", 7, 8, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 119,
-												"value" : [ "grid", 8, 8, 1, 1, 0, 0 ]
+												"value" : [ "grid", 8, 8, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 120,
@@ -4083,7 +4083,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4729,15 +4729,15 @@
 											}
 , 											{
 												"key" : 32,
-												"value" : [ "grid", 1, 3, 3, 1, 0, 0 ]
+												"value" : [ "grid", 1, 3, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 33,
-												"value" : [ "grid", 2, 3, 3, 1, 0, 0 ]
+												"value" : [ "grid", 2, 3, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 34,
-												"value" : [ "grid", 3, 3, 1, 1, 0, 0 ]
+												"value" : [ "grid", 3, 3, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 35,
@@ -4765,15 +4765,15 @@
 											}
 , 											{
 												"key" : 48,
-												"value" : [ "grid", 1, 4, 1, 1, 0, 0 ]
+												"value" : [ "grid", 1, 4, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 49,
-												"value" : [ "grid", 2, 4, 1, 1, 0, 0 ]
+												"value" : [ "grid", 2, 4, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 50,
-												"value" : [ "grid", 3, 4, 1, 1, 0, 0 ]
+												"value" : [ "grid", 3, 4, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 51,
@@ -4785,11 +4785,11 @@
 											}
 , 											{
 												"key" : 53,
-												"value" : [ "grid", 6, 4, 1, 1, 0, 0 ]
+												"value" : [ "grid", 6, 4, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 54,
-												"value" : [ "grid", 7, 4, 1, 1, 0, 0 ]
+												"value" : [ "grid", 7, 4, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 55,
@@ -4801,19 +4801,19 @@
 											}
 , 											{
 												"key" : 64,
-												"value" : [ "grid", 1, 5, 1, 1, 0, 0 ]
+												"value" : [ "grid", 1, 5, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 65,
-												"value" : [ "grid", 2, 5, 1, 1, 0, 0 ]
+												"value" : [ "grid", 2, 5, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 66,
-												"value" : [ "grid", 3, 5, 1, 1, 0, 0 ]
+												"value" : [ "grid", 3, 5, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 67,
-												"value" : [ "grid", 4, 5, 1, 1, 0, 0 ]
+												"value" : [ "grid", 4, 5, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 68,
@@ -4821,15 +4821,15 @@
 											}
 , 											{
 												"key" : 69,
-												"value" : [ "grid", 6, 5, 1, 1, 0, 0 ]
+												"value" : [ "grid", 6, 5, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 70,
-												"value" : [ "grid", 7, 5, 1, 1, 0, 0 ]
+												"value" : [ "grid", 7, 5, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 71,
-												"value" : [ "grid", 8, 5, 1, 1, 0, 0 ]
+												"value" : [ "grid", 8, 5, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 72,
@@ -4837,35 +4837,35 @@
 											}
 , 											{
 												"key" : 80,
-												"value" : [ "grid", 1, 6, 1, 1, 0, 0 ]
+												"value" : [ "grid", 1, 6, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 81,
-												"value" : [ "grid", 2, 6, 1, 1, 0, 0 ]
+												"value" : [ "grid", 2, 6, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 82,
-												"value" : [ "grid", 3, 6, 1, 1, 0, 0 ]
+												"value" : [ "grid", 3, 6, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 83,
-												"value" : [ "grid", 4, 6, 1, 1, 0, 0 ]
+												"value" : [ "grid", 4, 6, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 84,
-												"value" : [ "grid", 5, 6, 1, 1, 0, 0 ]
+												"value" : [ "grid", 5, 6, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 85,
-												"value" : [ "grid", 6, 6, 1, 1, 0, 0 ]
+												"value" : [ "grid", 6, 6, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 86,
-												"value" : [ "grid", 7, 6, 1, 1, 0, 0 ]
+												"value" : [ "grid", 7, 6, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 87,
-												"value" : [ "grid", 8, 6, 1, 1, 0, 0 ]
+												"value" : [ "grid", 8, 6, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 88,
@@ -4873,35 +4873,35 @@
 											}
 , 											{
 												"key" : 96,
-												"value" : [ "grid", 1, 7, 1, 1, 0, 0 ]
+												"value" : [ "grid", 1, 7, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 97,
-												"value" : [ "grid", 2, 7, 1, 1, 0, 0 ]
+												"value" : [ "grid", 2, 7, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 98,
-												"value" : [ "grid", 3, 7, 1, 1, 0, 0 ]
+												"value" : [ "grid", 3, 7, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 99,
-												"value" : [ "grid", 4, 7, 1, 1, 0, 0 ]
+												"value" : [ "grid", 4, 7, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 100,
-												"value" : [ "grid", 5, 7, 1, 1, 0, 0 ]
+												"value" : [ "grid", 5, 7, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 101,
-												"value" : [ "grid", 6, 7, 1, 1, 0, 0 ]
+												"value" : [ "grid", 6, 7, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 102,
-												"value" : [ "grid", 7, 7, 1, 1, 0, 0 ]
+												"value" : [ "grid", 7, 7, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 103,
-												"value" : [ "grid", 8, 7, 1, 1, 0, 0 ]
+												"value" : [ "grid", 8, 7, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 104,
@@ -4909,35 +4909,35 @@
 											}
 , 											{
 												"key" : 112,
-												"value" : [ "grid", 1, 8, 1, 1, 0, 0 ]
+												"value" : [ "grid", 1, 8, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 113,
-												"value" : [ "grid", 2, 8, 1, 1, 0, 0 ]
+												"value" : [ "grid", 2, 8, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 114,
-												"value" : [ "grid", 3, 8, 1, 1, 0, 0 ]
+												"value" : [ "grid", 3, 8, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 115,
-												"value" : [ "grid", 4, 8, 1, 1, 0, 0 ]
+												"value" : [ "grid", 4, 8, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 116,
-												"value" : [ "grid", 5, 8, 1, 1, 0, 0 ]
+												"value" : [ "grid", 5, 8, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 117,
-												"value" : [ "grid", 6, 8, 1, 1, 0, 0 ]
+												"value" : [ "grid", 6, 8, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 118,
-												"value" : [ "grid", 7, 8, 1, 1, 0, 0 ]
+												"value" : [ "grid", 7, 8, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 119,
-												"value" : [ "grid", 8, 8, 1, 1, 0, 0 ]
+												"value" : [ "grid", 8, 8, 0, 0, 0, 0 ]
 											}
 , 											{
 												"key" : 120,
@@ -5449,15 +5449,15 @@
 							}
 , 							{
 								"key" : 32,
-								"value" : [ "grid", 1, 3, 3, 1, 0, 0 ]
+								"value" : [ "grid", 1, 3, 0, 0, 0, 0 ]
 							}
 , 							{
 								"key" : 33,
-								"value" : [ "grid", 2, 3, 3, 1, 0, 0 ]
+								"value" : [ "grid", 2, 3, 0, 0, 0, 0 ]
 							}
 , 							{
 								"key" : 34,
-								"value" : [ "grid", 3, 3, 1, 1, 0, 0 ]
+								"value" : [ "grid", 3, 3, 0, 0, 0, 0 ]
 							}
 , 							{
 								"key" : 35,
@@ -5485,15 +5485,15 @@
 							}
 , 							{
 								"key" : 48,
-								"value" : [ "grid", 1, 4, 1, 1, 0, 0 ]
+								"value" : [ "grid", 1, 4, 0, 0, 0, 0 ]
 							}
 , 							{
 								"key" : 49,
-								"value" : [ "grid", 2, 4, 1, 1, 0, 0 ]
+								"value" : [ "grid", 2, 4, 0, 0, 0, 0 ]
 							}
 , 							{
 								"key" : 50,
-								"value" : [ "grid", 3, 4, 1, 1, 0, 0 ]
+								"value" : [ "grid", 3, 4, 0, 0, 0, 0 ]
 							}
 , 							{
 								"key" : 51,
@@ -5505,11 +5505,11 @@
 							}
 , 							{
 								"key" : 53,
-								"value" : [ "grid", 6, 4, 1, 1, 0, 0 ]
+								"value" : [ "grid", 6, 4, 0, 0, 0, 0 ]
 							}
 , 							{
 								"key" : 54,
-								"value" : [ "grid", 7, 4, 1, 1, 0, 0 ]
+								"value" : [ "grid", 7, 4, 0, 0, 0, 0 ]
 							}
 , 							{
 								"key" : 55,
@@ -5521,19 +5521,19 @@
 							}
 , 							{
 								"key" : 64,
-								"value" : [ "grid", 1, 5, 1, 1, 0, 0 ]
+								"value" : [ "grid", 1, 5, 0, 0, 0, 0 ]
 							}
 , 							{
 								"key" : 65,
-								"value" : [ "grid", 2, 5, 1, 1, 0, 0 ]
+								"value" : [ "grid", 2, 5, 0, 0, 0, 0 ]
 							}
 , 							{
 								"key" : 66,
-								"value" : [ "grid", 3, 5, 1, 1, 0, 0 ]
+								"value" : [ "grid", 3, 5, 0, 0, 0, 0 ]
 							}
 , 							{
 								"key" : 67,
-								"value" : [ "grid", 4, 5, 1, 1, 0, 0 ]
+								"value" : [ "grid", 4, 5, 0, 0, 0, 0 ]
 							}
 , 							{
 								"key" : 68,
@@ -5541,15 +5541,15 @@
 							}
 , 							{
 								"key" : 69,
-								"value" : [ "grid", 6, 5, 1, 1, 0, 0 ]
+								"value" : [ "grid", 6, 5, 0, 0, 0, 0 ]
 							}
 , 							{
 								"key" : 70,
-								"value" : [ "grid", 7, 5, 1, 1, 0, 0 ]
+								"value" : [ "grid", 7, 5, 0, 0, 0, 0 ]
 							}
 , 							{
 								"key" : 71,
-								"value" : [ "grid", 8, 5, 1, 1, 0, 0 ]
+								"value" : [ "grid", 8, 5, 0, 0, 0, 0 ]
 							}
 , 							{
 								"key" : 72,
@@ -5557,35 +5557,35 @@
 							}
 , 							{
 								"key" : 80,
-								"value" : [ "grid", 1, 6, 1, 1, 0, 0 ]
+								"value" : [ "grid", 1, 6, 0, 0, 0, 0 ]
 							}
 , 							{
 								"key" : 81,
-								"value" : [ "grid", 2, 6, 1, 1, 0, 0 ]
+								"value" : [ "grid", 2, 6, 0, 0, 0, 0 ]
 							}
 , 							{
 								"key" : 82,
-								"value" : [ "grid", 3, 6, 1, 1, 0, 0 ]
+								"value" : [ "grid", 3, 6, 0, 0, 0, 0 ]
 							}
 , 							{
 								"key" : 83,
-								"value" : [ "grid", 4, 6, 1, 1, 0, 0 ]
+								"value" : [ "grid", 4, 6, 0, 0, 0, 0 ]
 							}
 , 							{
 								"key" : 84,
-								"value" : [ "grid", 5, 6, 1, 1, 0, 0 ]
+								"value" : [ "grid", 5, 6, 0, 0, 0, 0 ]
 							}
 , 							{
 								"key" : 85,
-								"value" : [ "grid", 6, 6, 1, 1, 0, 0 ]
+								"value" : [ "grid", 6, 6, 0, 0, 0, 0 ]
 							}
 , 							{
 								"key" : 86,
-								"value" : [ "grid", 7, 6, 1, 1, 0, 0 ]
+								"value" : [ "grid", 7, 6, 0, 0, 0, 0 ]
 							}
 , 							{
 								"key" : 87,
-								"value" : [ "grid", 8, 6, 1, 1, 0, 0 ]
+								"value" : [ "grid", 8, 6, 0, 0, 0, 0 ]
 							}
 , 							{
 								"key" : 88,
@@ -5593,35 +5593,35 @@
 							}
 , 							{
 								"key" : 96,
-								"value" : [ "grid", 1, 7, 1, 1, 0, 0 ]
+								"value" : [ "grid", 1, 7, 0, 0, 0, 0 ]
 							}
 , 							{
 								"key" : 97,
-								"value" : [ "grid", 2, 7, 1, 1, 0, 0 ]
+								"value" : [ "grid", 2, 7, 0, 0, 0, 0 ]
 							}
 , 							{
 								"key" : 98,
-								"value" : [ "grid", 3, 7, 1, 1, 0, 0 ]
+								"value" : [ "grid", 3, 7, 0, 0, 0, 0 ]
 							}
 , 							{
 								"key" : 99,
-								"value" : [ "grid", 4, 7, 1, 1, 0, 0 ]
+								"value" : [ "grid", 4, 7, 0, 0, 0, 0 ]
 							}
 , 							{
 								"key" : 100,
-								"value" : [ "grid", 5, 7, 1, 1, 0, 0 ]
+								"value" : [ "grid", 5, 7, 0, 0, 0, 0 ]
 							}
 , 							{
 								"key" : 101,
-								"value" : [ "grid", 6, 7, 1, 1, 0, 0 ]
+								"value" : [ "grid", 6, 7, 0, 0, 0, 0 ]
 							}
 , 							{
 								"key" : 102,
-								"value" : [ "grid", 7, 7, 1, 1, 0, 0 ]
+								"value" : [ "grid", 7, 7, 0, 0, 0, 0 ]
 							}
 , 							{
 								"key" : 103,
-								"value" : [ "grid", 8, 7, 1, 1, 0, 0 ]
+								"value" : [ "grid", 8, 7, 0, 0, 0, 0 ]
 							}
 , 							{
 								"key" : 104,
@@ -5629,35 +5629,35 @@
 							}
 , 							{
 								"key" : 112,
-								"value" : [ "grid", 1, 8, 1, 1, 0, 0 ]
+								"value" : [ "grid", 1, 8, 0, 0, 0, 0 ]
 							}
 , 							{
 								"key" : 113,
-								"value" : [ "grid", 2, 8, 1, 1, 0, 0 ]
+								"value" : [ "grid", 2, 8, 0, 0, 0, 0 ]
 							}
 , 							{
 								"key" : 114,
-								"value" : [ "grid", 3, 8, 1, 1, 0, 0 ]
+								"value" : [ "grid", 3, 8, 0, 0, 0, 0 ]
 							}
 , 							{
 								"key" : 115,
-								"value" : [ "grid", 4, 8, 1, 1, 0, 0 ]
+								"value" : [ "grid", 4, 8, 0, 0, 0, 0 ]
 							}
 , 							{
 								"key" : 116,
-								"value" : [ "grid", 5, 8, 1, 1, 0, 0 ]
+								"value" : [ "grid", 5, 8, 0, 0, 0, 0 ]
 							}
 , 							{
 								"key" : 117,
-								"value" : [ "grid", 6, 8, 1, 1, 0, 0 ]
+								"value" : [ "grid", 6, 8, 0, 0, 0, 0 ]
 							}
 , 							{
 								"key" : 118,
-								"value" : [ "grid", 7, 8, 1, 1, 0, 0 ]
+								"value" : [ "grid", 7, 8, 0, 0, 0, 0 ]
 							}
 , 							{
 								"key" : 119,
-								"value" : [ "grid", 8, 8, 1, 1, 0, 0 ]
+								"value" : [ "grid", 8, 8, 0, 0, 0, 0 ]
 							}
 , 							{
 								"key" : 120,
