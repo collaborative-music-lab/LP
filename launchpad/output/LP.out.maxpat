@@ -56,7 +56,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 116.0, 525.0, 77.0, 22.0 ],
+					"patching_rect" : [ 28.0, 515.0, 77.0, 22.0 ],
 					"text" : "prepend port"
 				}
 
@@ -91,7 +91,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 28.0, 553.0, 125.0, 22.0 ],
+					"patching_rect" : [ 28.0, 488.0, 125.0, 22.0 ],
 					"text" : "r LPmidiOutputAssign"
 				}
 
@@ -151,7 +151,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 339.5, 438.0, 32.0, 22.0 ],
+					"patching_rect" : [ 354.5, 438.0, 32.0, 22.0 ],
 					"text" : "gate"
 				}
 
@@ -260,7 +260,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 470.0, 447.0, 24.0, 24.0 ]
+					"patching_rect" : [ 536.0, 449.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -270,7 +270,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 470.0, 511.0, 67.0, 22.0 ],
+					"patching_rect" : [ 536.0, 513.0, 67.0, 22.0 ],
 					"text" : "print LPout"
 				}
 
@@ -282,7 +282,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 470.0, 481.0, 32.0, 22.0 ],
+					"patching_rect" : [ 536.0, 483.0, 32.0, 22.0 ],
 					"text" : "gate"
 				}
 
@@ -859,7 +859,7 @@
 				"box" : 				{
 					"comment" : "padX (num, g, r)",
 					"id" : "obj-12",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -872,7 +872,7 @@
 				"box" : 				{
 					"comment" : "padY (num, g, r)",
 					"id" : "obj-11",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -885,7 +885,7 @@
 				"box" : 				{
 					"comment" : "grid (x,y,g,r)",
 					"id" : "obj-10",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1984,8 +1984,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 339.5, 469.0, 40.0, 22.0 ],
-					"text" : "ctlout"
+					"patching_rect" : [ 354.5, 469.0, 109.0, 22.0 ],
+					"text" : "ctlout \"from Max 1\""
 				}
 
 			}
@@ -4198,8 +4198,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 225.0, 469.0, 107.0, 22.0 ],
-					"text" : "noteout launchpad"
+					"patching_rect" : [ 225.0, 469.0, 120.0, 22.0 ],
+					"text" : "noteout \"from Max 1\""
 				}
 
 			}
@@ -6106,7 +6106,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
-					"midpoints" : [ 474.0, 321.0, 362.0, 321.0 ],
+					"midpoints" : [ 474.0, 321.0, 377.0, 321.0 ],
 					"order" : 0,
 					"source" : [ "obj-8", 0 ]
 				}
@@ -6140,13 +6140,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
-					"midpoints" : [ 292.0, 311.0, 362.0, 311.0 ],
+					"midpoints" : [ 292.0, 311.0, 377.0, 311.0 ],
 					"order" : 1,
 					"source" : [ "obj-84", 0 ]
 				}
 
 			}
  ],
+		"dependency_cache" : [  ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "tap",
 				"default" : 				{
