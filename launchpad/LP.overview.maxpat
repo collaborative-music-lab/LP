@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-34",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 644.0, 622.0, 35.0, 22.0 ],
+					"text" : "clear"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-19",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -334,7 +346,7 @@
 				"box" : 				{
 					"id" : "obj-60",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 544.0, 119.21893310546875, 118.5, 22.0 ],
@@ -468,7 +480,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 540.5, 687.0, 42.0, 22.0 ],
+					"patching_rect" : [ 540.5, 687.0, 461.0, 22.0 ],
 					"text" : "LP.out"
 				}
 
@@ -628,7 +640,7 @@
 				"box" : 				{
 					"id" : "obj-4",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 14.25, 280.0, 51.0, 22.0 ],
@@ -834,6 +846,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"source" : [ "obj-34", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-33", 0 ],
 					"source" : [ "obj-36", 0 ]
 				}
@@ -878,7 +897,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 1 ],
-					"midpoints" : [ 854.5, 672.0, 561.5, 672.0 ],
+					"midpoints" : [ 854.5, 672.0, 771.0, 672.0 ],
 					"source" : [ "obj-74", 0 ]
 				}
 
@@ -936,91 +955,91 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "LP.grid.maxpat",
-				"bootpath" : "~/Documents/github/CML/LP/launchpad/input",
+				"bootpath" : "/Users/famle/CML/LP/launchpad/input",
 				"patcherrelativepath" : "./input",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "LP.padX.maxpat",
-				"bootpath" : "~/Documents/github/CML/LP/launchpad/input",
+				"bootpath" : "/Users/famle/CML/LP/launchpad/input",
 				"patcherrelativepath" : "./input",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "LP.padY.maxpat",
-				"bootpath" : "~/Documents/github/CML/LP/launchpad/input",
+				"bootpath" : "/Users/famle/CML/LP/launchpad/input",
 				"patcherrelativepath" : "./input",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "LP.seq8.maxpat",
-				"bootpath" : "~/Documents/github/CML/LP/launchpad/mapping",
+				"bootpath" : "/Users/famle/CML/LP/launchpad/mapping",
 				"patcherrelativepath" : "./mapping",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "LP.row.maxpat",
-				"bootpath" : "~/Documents/github/CML/LP/launchpad/mapping",
+				"bootpath" : "/Users/famle/CML/LP/launchpad/mapping",
 				"patcherrelativepath" : "./mapping",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "initPV.maxpat",
-				"bootpath" : "~/Documents/github/CML/MLE/patchers/utilities",
+				"bootpath" : "/Users/famle/CML/MLE/patchers/utilities",
 				"patcherrelativepath" : "../../MLE/patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "LP.ledBar.maxpat",
-				"bootpath" : "~/Documents/github/CML/LP/launchpad/feedback",
+				"bootpath" : "/Users/famle/CML/LP/launchpad/feedback",
 				"patcherrelativepath" : "./feedback",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "LP.led1.maxpat",
-				"bootpath" : "~/Documents/github/CML/LP/launchpad/feedback",
+				"bootpath" : "/Users/famle/CML/LP/launchpad/feedback",
 				"patcherrelativepath" : "./feedback",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "LP.out.maxpat",
-				"bootpath" : "~/Documents/github/CML/LP/launchpad/output",
+				"bootpath" : "/Users/famle/CML/LP/launchpad/output",
 				"patcherrelativepath" : "./output",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "LP.dot.maxpat",
-				"bootpath" : "~/Documents/github/CML/LP/launchpad/feedback",
+				"bootpath" : "/Users/famle/CML/LP/launchpad/feedback",
 				"patcherrelativepath" : "./feedback",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "LP.8row.maxpat",
-				"bootpath" : "~/Documents/github/CML/LP/launchpad/mapping",
+				"bootpath" : "/Users/famle/CML/LP/launchpad/mapping",
 				"patcherrelativepath" : "./mapping",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "LP.keyGrid.maxpat",
-				"bootpath" : "~/Documents/github/CML/LP/launchpad/input",
+				"bootpath" : "/Users/famle/CML/LP/launchpad/input",
 				"patcherrelativepath" : "./input",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "asciiLinearMapping.txt",
-				"bootpath" : "~/Documents/github/CML/MLE/code",
+				"bootpath" : "/Users/famle/CML/MLE/code",
 				"patcherrelativepath" : "../../MLE/code",
 				"type" : "TEXT",
 				"implicit" : 1
